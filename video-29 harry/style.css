@@ -1,0 +1,46 @@
+body {
+    background-color: grey;
+}
+
+.first {
+    background-color: white;
+    width: 28vw;
+    height: 85vh;
+    border-radius: 12px;
+    padding: 5px;
+}
+
+img {
+    width: 28vw;
+    border-radius: 12px;
+}
+
+.capsules {
+    padding: 14px 4px;
+}
+
+.capsules span {
+    border-radius: 12px;
+    border: 2px solid rgb(201, 194, 194);
+    padding: 0 6px;
+    margin: 4px;
+}
+
+.button {
+    text-align: center;
+}
+
+.button button {
+    border-radius: 15px;
+    background-color: rgb(183, 183, 211);
+    color: rgb(32, 32, 189);
+    border: none;
+    padding: 7px 9px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.button button:hover {
+    background-color: rgb(11, 11, 212);
+    color: rgb(107, 107, 136);
+}

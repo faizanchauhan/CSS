@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css animations</title>
+    <style>
+        .container {
+            background-color: rgb(37, 105, 105);
+            width: 30vw;
+            height: 80vh;
+        }
+        
+        .box {
+            /*background-color: aqua;*/
+            width: 34px;
+            height: 45px;
+            /* animation-name: faizan;
+            animation-duration: 2s;
+            animation-iteration-count: 2;
+            animation-timing-function: cubic-bezier(0.95, 0.26, 0.97, 0.04);
+            animation-delay: 0.5s;
+            animation-direction: alternate-reverse;
+            animation-play-state: paused; */
+            /* animation: name duration timing-function delay iteration-count direction fill-mode;*/
+            animation: faizan 3s ease-in 1 forwards, faizan2 3s ease-in 1 forwards;
+        }
+        
+        @keyframes faizan {
+            from {
+                background-color: red;
+            }
+            to {
+                transform: translateX(1000px);
+                background-color: aqua;
+            }
+        }
+        
+        @keyframes faizan2 {
+            0% {
+                transform: rotate(100deg);
+            }
+            20% {
+                transform: rotate(200deg);
+            }
+            50% {
+                transform: rotate(220deg);
+            }
+            80% {
+                transform: rotate(300deg);
+            }
+            100% {
+                transform: rotate(310deg);
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <div class="box">Box</div>
+    </div>
+</body>
+
+</html>

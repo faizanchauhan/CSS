@@ -1,0 +1,84 @@
+.logo img {
+    width: 144px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+}
+
+.right ul {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+}
+
+.right ul li {
+    display: flex;
+    cursor: pointer;
+}
+
+.right ul li span {
+    padding: 0 5px;
+}
+
+.first {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 25px;
+    margin: 60px;
+}
+
+.first span {
+    font-size: 45px;
+    font-family: sans-serif;
+}
+
+.first img {
+    margin: 0 23px;
+}
+
+.first p {
+    width: 74vw;
+    font-size: 24px;
+    text-align: center;
+    font-family: sans-serif;
+    color: #222;
+}
+
+.first button {
+    background-color: #00b6d1;
+    border: none;
+    padding: 17px 24px;
+    color: white;
+    border-radius: 5px;
+    font-weight: bolder;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.second {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-right: 290px;
+    color: #222;
+}
+
+.second img {
+    width: 45px;
+    margin: 0 15px;
+}
+
+.small {
+    font-size: 80%;
+    font-family: sans-serif;
+}
+
+.big {
+    font-size: 24px;
+    font-family: sans-serif;
+}
